@@ -11,7 +11,7 @@ max_iter: maximum number of iterations, default is 1000, usually finish within 1
 return:
 - group1: a vector of length n, each element is an index of group membership
 - centers0_cpcs: K orthonormal basis matrices of size p by p for each cluster
-- F: $\mathbf F = \mathbf B^\top \bm\Psi \mathbf B$
-- diagF: $\mathbf F = (\mathbf B^\top \bm\Psi \mathbf B) \circ \mathbf I$ the diagonal of matrix $\mathbf F$
+- F: $\mathbf F = \mathbf B^\top \mathbf\Psi \mathbf B$
+- diagF: $\mathbf F = (\mathbf B^\top \mathbf\Psi \mathbf B) \circ \mathbf I$ the diagonal of matrix $\mathbf F$
 - centers0: Mean of each cluster
 - mse_vec: loss function for each iteration
