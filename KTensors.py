@@ -1,4 +1,21 @@
+"""
+Perform K-Tensors Clustering Algorithm for Positive Semi-Denfinite Matrices
 
+Parameters:
+    Psis (3D np.array): The input matrices to be clustered with shape (n, p, p)
+    K (int): The number of clusters
+    max_iter (int): The maximum number of iterations
+
+Returns:
+    group1 (np.array): The cluster labels for each input matrix
+    centers0_cpcs (np.array): The common principal components of the clusters
+    F (np.array): The orthonormal transformation of the input matrices to the
+        common principal components
+    diagF (np.array): The diagonal matrices of the orthonormal transformation
+        of the input matrices to the common principal components
+    centers0 (np.array): The centers of the clusters
+    mse_vec (list): The mean squared error of the clusters at each iteration
+"""
 class ClusteringCPC:
     def __init__(self, Psis, K, max_iter=1000):
         self.Psis = Psis
