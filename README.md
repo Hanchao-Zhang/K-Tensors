@@ -1,4 +1,4 @@
-CMAverse: a suite of functions for causal mediation analysis<img src="./pic2.png" align="right" width="150" />
+K-Tensors: Clustering Positive Semi-Definite Matrices<img src="./pic2.png" align="right" width="150" />
 ========================================================================================================================
 
 
@@ -8,7 +8,6 @@ Status](https://travis-ci.org/stephenslab/clusteringCPC.svg?branch=master)](http
 
 
 
-# K-Tensors: 
 
 K-Tensors is a clustering algorithm for positive semi-definite matrices that 
 
