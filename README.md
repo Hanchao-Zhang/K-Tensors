@@ -1,3 +1,21 @@
+[![Project Status:
+Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+
+<!-- another badage -->
+[![Build
+Status](https://travis-ci.org/stephenslab/clusteringCPC.svg?branch=master)](https://travis-ci.org/stephenslab/clusteringCPC)
+
+<!-- another badage -->
+[![codecov](https://codecov.io/gh/stephenslab/clusteringCPC/branch/master/graph/badge.svg)](https://codecov.io/gh/stephenslab/clusteringCPC)
+
+<!-- another badage -->
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/clusteringCPC)](https://cran.r-project.org/package=clusteringCPC)
+
+<!-- another badage -->
+[![CRAN\_Download\_Badge](http://cranlogs.r-pkg.org/badges/clusteringCPC)](https://cran.r-project.org/package=clusteringCPC)
+
+
+
 # K-Tensors: 
 
 K-Tensors is a clustering algorithm for positive semi-definite matrices that 
