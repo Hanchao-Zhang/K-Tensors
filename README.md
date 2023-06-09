@@ -1,7 +1,6 @@
 K-Tensors: Clustering Positive Semi-Definite Matrices<img src="./pic2.png" align="right" width="150" />
 ========================================================================================================================
 
-===
 
 [![Project Status:
 Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build
