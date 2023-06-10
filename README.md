@@ -29,8 +29,10 @@ return:
 ## Some Tecnical Details
 
 ### Loss Function
-\begin{align*}
-    \mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) ) = \Vert \Vert_F^2
-\end{align*}
 
 $$\mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) ) = \Vert \Vert_F^2$$
+$$\begin{align}
+Then,\ (x+z)+t & = x+(z+t)\ (\because Rule2) \\
+& = x+0_V \\
+& = x\ (\because Rule3) \\
+\end{align}$$
