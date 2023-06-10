@@ -22,7 +22,7 @@ return:
 - group: a vector of length n, each element is an index of group membership
 - CPCs: K orthonormal basis matrices of size p by p for each cluster
 - $\mathbf F$: $\mathbf F = \mathbf B^\top \mathbf\Psi \mathbf B$
-- $\text{diag}(\mathbf F)$: $\mathbf F = (\mathbf B^\top \mathbf\Psi \mathbf B) \circ \mathbf I$ the diagonal of matrix $\mathbf F$
+- $\text{diag}(\mathbf F)$: $\text{diag}(\mathbf F) = (\mathbf B^\top \mathbf\Psi \mathbf B) \circ \mathbf I$ the diagonal of matrix $\mathbf F$
 - centers: Mean of each cluster
 - loss: loss function for each iteration
 
