@@ -32,3 +32,5 @@ return:
 
 $$\mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) ) = \Vert \mathbf \Psi - \mathbf B((\mathbf B^\top \mathbf \Psi \mathbf B) \circ \mathbb I )\mathbf B \Vert_F^2$$
 
+for more technical details, please refer to the paper. 
+
