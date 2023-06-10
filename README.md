@@ -29,4 +29,8 @@ return:
 ## Some Tecnical Details
 
 ### Loss Function
-$$\mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) )$$
+\begin{align*}
+    \mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) ) = \Vert \Vert_F^2
+\end{align*}
+
+$$\mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) ) = \Vert \Vert_F^2$$
