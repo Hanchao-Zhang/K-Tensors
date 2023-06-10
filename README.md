@@ -19,10 +19,10 @@ input:
 - max_iter: maximum number of iterations, default is 1000, usually finish within 10 iterations
 
 return:
-- group1: a vector of length n, each element is an index of group membership
-- centers0_cpcs: K orthonormal basis matrices of size p by p for each cluster
-- F: $\mathbf F = \mathbf B^\top \mathbf\Psi \mathbf B$
-- diagF: $\mathbf F = (\mathbf B^\top \mathbf\Psi \mathbf B) \circ \mathbf I$ the diagonal of matrix $\mathbf F$
-- centers0: Mean of each cluster
-- mse_vec: loss function for each iteration
+- group: a vector of length n, each element is an index of group membership
+- CPCs: K orthonormal basis matrices of size p by p for each cluster
+- $\mathbf F$: $\mathbf F = \mathbf B^\top \mathbf\Psi \mathbf B$
+- $\text{diag}\mathbf F$: $\mathbf F = (\mathbf B^\top \mathbf\Psi \mathbf B) \circ \mathbf I$ the diagonal of matrix $\mathbf F$
+- centers: Mean of each cluster
+- loss: loss function for each iteration
 
