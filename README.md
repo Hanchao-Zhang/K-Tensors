@@ -26,3 +26,7 @@ return:
 - centers: Mean of each cluster
 - loss: loss function for each iteration
 
+## Some Tecnical Details
+
+### Loss Function
+$$\mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) )$$
