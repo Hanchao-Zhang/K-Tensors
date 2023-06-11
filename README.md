@@ -9,7 +9,7 @@ Status](https://travis-ci.org/stephenslab/clusteringCPC.svg?branch=master)](http
 
 ## install the Function from GitHub
 
-+ Go to the terminal, copy and paste:` pip3` install git+https://github.com/Hanchao-Zhang/K-Tensors.git`
++ Go to the terminal, copy and paste:` pip3 install git+https://github.com/Hanchao-Zhang/K-Tensors.git`
 + Open a python console, copy and paste: `from KTensors import KTensors`
 
 ## About the Function
