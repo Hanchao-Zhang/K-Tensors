@@ -10,13 +10,13 @@ def read(fname):
 
 setup(
     name = "KTensors",
-    version = "0.0.8",
+    version = "0.0.6",
     author = "Hanchao Zhang",
     author_email = "hz1641@nyu.edu",
     license = "BSD",
     keywords = "Clustering Positive Semi-Denfinite Matrices",
     # url = "https://github.com/Hanchao-Zhang/KTensors",
-    packages=find_packages("KTensors"),
+    packages=find_packages(where="KTensors"),
     py_modules=["KTensors"],
     long_description=read('README.md'),
     # classifiers=[

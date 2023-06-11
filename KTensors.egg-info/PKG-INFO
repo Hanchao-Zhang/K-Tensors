@@ -1,13 +1,10 @@
 Metadata-Version: 2.1
 Name: KTensors
-Version: 0.0.5
-Summary: UNKNOWN
-Home-page: UNKNOWN
+Version: 0.0.8
 Author: Hanchao Zhang
 Author-email: hz1641@nyu.edu
 License: BSD
 Keywords: Clustering Positive Semi-Denfinite Matrices
-Platform: UNKNOWN
 
 K-Tensors: Clustering Positive Semi-Definite Matrices<img src="./ktensorlogo.png" align="right" width="150" />
 ========================================================================================================================
@@ -17,17 +14,18 @@ K-Tensors: Clustering Positive Semi-Definite Matrices<img src="./ktensorlogo.png
 Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build
 Status](https://travis-ci.org/stephenslab/clusteringCPC.svg?branch=master)](https://travis-ci.org/stephenslab/clusteringCPC) [![codecov](https://codecov.io/gh/stephenslab/clusteringCPC/branch/master/graph/badge.svg)](https://codecov.io/gh/stephenslab/clusteringCPC) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/clusteringCPC)](https://cran.r-project.org/package=clusteringCPC) [![CRAN\_Download\_Badge](http://cranlogs.r-pkg.org/badges/clusteringCPC)](https://cran.r-project.org/package=clusteringCPC)
 
-## Install the Function from PyPI
-+ Go to the terminal (mac) or command line (windows), copy and paste:`pip3 install KTensors` or `pip3 install KTensors==0.0.4` for a specific version
+## Install the Package from PyPI
++ Go to the terminal (mac) or command line (windows), copy and paste:`pip3 install KTensors` or `pip3 install KTensors==0.0.5` for a specific version
 
-## install the Function from GitHub
+## install the Package from GitHub
 
 + Go to the terminal (mac) or command line (windows), copy and paste:`pip3 install git+https://github.com/Hanchao-Zhang/KTensors.git`
 + Open a python console, copy and paste: `from KTensors import KTensors`
 
 
-## About the Function
+## About the Package
 
+### `KTensors`
 
 `KTensors(Psis, K, max_iter=1000).clustering()`
 
@@ -53,6 +51,4 @@ $$\begin{aligned}\mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) 
 where $\mathbb I$ is a identity matrix, and $\circ$ is the Hadamard product.
 
 For more technical details, please refer to the paper. 
-
-
 

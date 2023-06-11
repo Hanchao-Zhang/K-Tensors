@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name = "KTensors",
-    version = "0.0.8",
+    version = "0.0.6",
     author = "Hanchao Zhang",
     author_email = "hz1641@nyu.edu",
     license = "BSD",
