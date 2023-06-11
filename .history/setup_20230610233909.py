@@ -13,9 +13,11 @@ setup(
     version = "0.0.4",
     author = "Hanchao Zhang",
     author_email = "hz1641@nyu.edu",
+    description = ("An demonstration of how to create, document, and publish "
+                                   "to the cheese shop a5 pypi.org."),
     license = "BSD",
     keywords = "Clustering Positive Semi-Denfinite Matrices",
-    url = "https://github.com/Hanchao-Zhang/KTensors",
+    # url = "http://packages.python.org/an_example_pypi_project",
     packages=find_packages(where="ktensors"),
     long_description=read('README.md'),
     # classifiers=[

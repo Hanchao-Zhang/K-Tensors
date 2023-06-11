@@ -15,7 +15,7 @@ setup(
     author_email = "hz1641@nyu.edu",
     license = "BSD",
     keywords = "Clustering Positive Semi-Denfinite Matrices",
-    url = "https://github.com/Hanchao-Zhang/KTensors",
+    # url = "http://packages.python.org/an_example_pypi_project",
     packages=find_packages(where="ktensors"),
     long_description=read('README.md'),
     # classifiers=[
