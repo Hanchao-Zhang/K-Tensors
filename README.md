@@ -11,7 +11,7 @@ Status](https://travis-ci.org/stephenslab/clusteringCPC.svg?branch=master)](http
 ## About the Function
 
 
-` ClusteringCPC(Psis, K, max_iter=1000).clustering()`
+` KTensors(Psis, K, max_iter=1000).clustering()`
 
 input:
 - Psis: a 3D array of size (n, p, p) where n is the number of matrices and p is the dimension of the positive semi-definite matrices.
