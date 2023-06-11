@@ -1,4 +1,4 @@
-K-Tensors: Clustering Positive Semi-Definite Matrices<img src="./pic2.png" align="right" width="150" />
+K-Tensors: Clustering Positive Semi-Definite Matrices<img src="./ktensorlogo.png" align="right" width="150" />
 ========================================================================================================================
 
 
