@@ -30,7 +30,7 @@ return:
 
 ### Loss Function
 
-$$\begin{aligned}\mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) ) = \Vert \mathbf \Psi - \mathbf B((\mathbf B^\top \mathbf \Psi \mathbf B) \circ \mathbb I )\mathbf B^\top \Vert_F^2 \end{aligned}$$
+$$\begin{aligned}\mathcal L(\mathbf \Psi, \mathcal P_{\mathbf B} (\mathbf \Psi) ) & = \Vert \mathbf \Psi - \mathbf B((\mathbf B^\top \mathbf \Psi \mathbf B) \circ \mathbb I )\mathbf B^\top \Vert_F^2 \\ & = \mathbf B^\top \mathbf \Psi \mathbf B - (\mathbf B^\top \mathbf \Psi \mathbf B)\circ \mathbb I \end{aligned}$$
 
 for more technical details, please refer to the paper. 
 
