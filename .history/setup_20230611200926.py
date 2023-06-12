@@ -1,6 +1,6 @@
 import os
 from setuptools import find_packages, setup
-import numpy as np
+
 # Utility function to read the README file.
 # Used for the long_description.  It's nice, because now 1) we have a top level
 # README file and 2) it's easier to type in the README file than to put a raw
@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name = "KTensors",
-    version = "0.1.1",
+    version = "0.1.0",
     author = "Hanchao Zhang",
     author_email = "hz1641@nyu.edu",
     license = "BSD",
@@ -22,7 +22,7 @@ setup(
     requires=['numpy'],
     install_requires=[
         'numpy',
-    ]
+    ],
     # classifiers=[
     #     "Development Status :: 3 - Alpha",
     #     "Topic :: Utilities",

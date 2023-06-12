@@ -16,8 +16,6 @@ Returns:
     centers0 (np.array): The centers of the clusters
     mse_vec (list): The mean squared error of the clusters at each iteration
 """
-import numpy as np
-
 class KTensors:
     def __init__(self, Psis, K, max_iter=1000):
         self.Psis = Psis

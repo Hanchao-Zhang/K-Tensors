@@ -4,4 +4,5 @@ setup.py
 KTensors.egg-info/PKG-INFO
 KTensors.egg-info/SOURCES.txt
 KTensors.egg-info/dependency_links.txt
+KTensors.egg-info/requires.txt
 KTensors.egg-info/top_level.txt
