@@ -25,10 +25,11 @@ setup(
     url = "https://github.com/Hanchao-Zhang/KTensors",
     packages=find_packages("KTensors"),
     py_modules=["KTensors"],
+    long_description=read('README.md'),
     requires=['numpy'],
     install_requires=[
         'numpy',
-    ],
+    ]
     # classifiers=[
     #     "Development Status :: 3 - Alpha",
     #     "Topic :: Utilities",

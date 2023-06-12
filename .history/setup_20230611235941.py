@@ -17,7 +17,7 @@ setup(
     name = "KTensors",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    version = "0.1.2",
+    version = "0.1.1",
     author = "Hanchao Zhang",
     author_email = "hz1641@nyu.edu",
     license = "BSD",
@@ -25,6 +25,7 @@ setup(
     url = "https://github.com/Hanchao-Zhang/KTensors",
     packages=find_packages("KTensors"),
     py_modules=["KTensors"],
+    # long_description=read('README.md'),
     requires=['numpy'],
     install_requires=[
         'numpy',
