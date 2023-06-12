@@ -15,7 +15,7 @@ def read(fname):
 
 setup(
     name = "KTensors",
-    description="K-Tensors",
+    description="K-Tensors: Clustering Positive Semi-Definite Matrices",
     long_description=long_description,
     long_description_content_type='text/markdown',
     version = "0.1.5",

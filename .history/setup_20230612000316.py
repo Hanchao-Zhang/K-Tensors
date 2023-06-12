@@ -15,10 +15,10 @@ def read(fname):
 
 setup(
     name = "KTensors",
-    description="K-Tensors",
+    description="K-Tensors: Clustering Positive Semi-Definite Matrices",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    version = "0.1.5",
+    version = "0.1.3",
     author = "Hanchao Zhang",
     author_email = "hz1641@nyu.edu",
     license = "MIT",

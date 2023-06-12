@@ -15,13 +15,12 @@ def read(fname):
 
 setup(
     name = "KTensors",
-    description="K-Tensors",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    version = "0.1.5",
+    version = "0.1.2",
     author = "Hanchao Zhang",
     author_email = "hz1641@nyu.edu",
-    license = "MIT",
+    license = "BSD",
     keywords = "KTensors: Clustering Positive Semi-Denfinite Matrices",
     url = "https://github.com/Hanchao-Zhang/KTensors",
     packages=find_packages("KTensors"),
