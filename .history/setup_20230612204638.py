@@ -30,7 +30,9 @@ setup(
     packages=find_packages("KTensors"),
     py_modules=["KTensors"],
     requires=["numpy", "scipy"],
-    install_requires=["numpy", "scipy"],
+    install_requires=[
+        "numpy",
+    ],
     # classifiers=[
     #     "Development Status :: 3 - Alpha",
     #     "Topic :: Utilities",
