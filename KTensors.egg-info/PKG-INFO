@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: KTensors
-Version: 0.1.6
+Version: 0.1.7
 Summary: K-Tensors
 Home-page: https://github.com/Hanchao-Zhang/KTensors
 Author: Hanchao Zhang
@@ -20,7 +20,7 @@ Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostat
 Status](https://travis-ci.org/stephenslab/clusteringCPC.svg?branch=master)](https://travis-ci.org/stephenslab/clusteringCPC) [![codecov](https://codecov.io/gh/stephenslab/clusteringCPC/branch/master/graph/badge.svg)](https://codecov.io/gh/stephenslab/clusteringCPC) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/clusteringCPC)](https://cran.r-project.org/package=clusteringCPC) [![CRAN\_Download\_Badge](http://cranlogs.r-pkg.org/badges/clusteringCPC)](https://cran.r-project.org/package=clusteringCPC)
 
 ## Install the Package from PyPI
-+ Go to the terminal (mac) or command line (windows), copy and paste:`pip3 install KTensors` or `pip3 install KTensors==0.1.5` for a specific version
++ Go to the terminal (mac) or command line (windows), copy and paste:`pip3 install KTensors` or `pip3 install KTensors==0.1.7` for a specific version
 
 ## install the Package from GitHub
 
@@ -46,6 +46,18 @@ return:
 - $\text{diag}(\mathbf F)$: $\text{diag}(\mathbf F) = (\mathbf B^\top \mathbf\Psi \mathbf B) \circ \mathbf I$ the diagonal of matrix $\mathbf F$
 - centers: Mean of each cluster
 - loss: loss function for each iteration
+
+### `KMetrics`
+
+`KMetrics(Psis, K, metrics)`
+input:
+- Psis: a 3D array of size (n, p, p) where n is the number of matrices and p is the dimension of the positive semi-definite matrices.
+- K: number of clusters
+- metrics: a string of metrics, including 'euclidean', 'affine_invariant', 'log_euclidean', 'log_det', and 'symmetric_stein'.
+
+output:
+- a vector of length n, each element is an index of group membership
+- loss function for each iteration
 
 ## Some Tecnical Details
 
